@@ -1,0 +1,23 @@
+body{
+    background-image: url(img/background.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background:linear-gradient(45deg, rgb(7, 24, 122), rgba(6, 161, 192, 0.685));
+    padding: 20px 0;
+}
+
+.cabezera img{
+    display: inline-block;
+    padding-left: 55px;
+}
+
+.cabezera h1{
+    display: inline;
+    font-size: 45px;
+    right: 0;
+    position: absolute;
+    padding-top: 40px;
+    padding-right: 55px;
+}
