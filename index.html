@@ -11,7 +11,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/reset.css">
         <link rel="stylesheet" href="/CSS/style.css">
-        <link rel="">
         <title>Encriptador</title>
     </head>
     <body>
@@ -22,13 +21,12 @@
             </div>
         </header>
         <main>
-            <section>
-                <!--TODO Seccion de mensaje a encriptar-->
-
-            </section>
-            <section>
-                <!--TODO Seccion del mensaje ya encriptado-->
-
+            <section class="Encriptador">
+                <textarea name="txtArea" id="txtArea" cols="40" rows="20" placeholder="Mensaje a Encriptar o Desencriptar"></textarea>
+                <textarea name="txtEncri" id="txtEncri" cols="40" rows="20" readonly placeholder="Mensaje Encriptado o Desencriptado"></textarea>
+                <script src="JavaScript/encrypter.js"></script>
+                <button type="button" onclick="getTextEncrypt()">Encriptar</button>
+                <button type="button" onclick="getTextDeEncrypt()">Desencriptar</button>
             </section>
         </main>
         <footer>
