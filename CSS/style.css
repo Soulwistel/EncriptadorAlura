@@ -21,3 +21,37 @@ header{
     padding-top: 40px;
     padding-right: 55px;
 }
+
+.encriptador{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+}
+
+.encriptador textarea{
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.encriptador button{
+    display: block;
+    margin-left: 21em;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    transition: 400ms;
+    color: #fff;
+    font-weight: bold;
+    background: url(/CSS/img/button.gif);
+    width: 7em;
+    height: 2em;
+    cursor: pointer;
+}
+
+.encriptador button:hover{
+    background: url(/CSS/img/buttonhover.gif);
+    transform: scale(1.2);
+}
