@@ -1,5 +1,5 @@
 body{
-    background-image: url(/CSS/img/background.jpg);
+    background-image: url(./img/background.jpg);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -46,13 +46,13 @@ header{
     color: #fff;
     text-align: center;
     font-weight: bold;
-    background: url(/CSS/img/button.gif);
+    background: url(./img/button.gif);
     width: 7em;
     height: 4em;
     cursor: pointer;
 }
 
 .encriptador button:hover{
-    background: url(/CSS/img/buttonhover.gif);
+    background: url(./img/buttonhover.gif);
     transform: scale(1.2);
 }
