@@ -39,15 +39,16 @@ header{
 .encriptador button{
     display: block;
     margin-left: 21em;
-    margin-bottom: 5px;
+    margin-top: 6px;
     border: none;
     border-radius: 10px;
     transition: 400ms;
     color: #fff;
+    text-align: center;
     font-weight: bold;
     background: url(/CSS/img/button.gif);
     width: 7em;
-    height: 2em;
+    height: 4em;
     cursor: pointer;
 }
 
